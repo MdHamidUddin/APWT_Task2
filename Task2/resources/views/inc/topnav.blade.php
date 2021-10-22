@@ -1,6 +1,16 @@
-<a class="btn btn-primary" href="{{route('student.create')}}"> Regestration </a>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+  <ul class="nav navbar-nav">
 
-<a class="btn btn-primary" href="{{route('student.login')}}"> Login </a>
+  <li><a class="btn btn-dark btn-sm" href="{{route('home')}}"> Home </a></li>
 
-<a class="btn btn-danger" href="{{route('home')}}"> Home </a>
+  <li>  <a class="btn btn-dark btn-sm" href="{{route('student.create')}}"> Regestration </a></li>
+
+  <li><a class="btn btn-dark btn-sm" href="{{route('student.login')}}"> Login </a></li>
+
+
+
+</ul>
+</div>
+</nav>
 
