@@ -59,7 +59,7 @@ class Reg_Controller extends Controller
 
     function home()
     {
-        return view('Regestration');
+        return view('Home');
     }
 
 
